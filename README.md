@@ -1,8 +1,6 @@
 # FlightSimulator
 Find the cheapest/shortest path from your location to any airport in the U.S.
 
-!!!!!!!!!!!!!Ignore Main.CPP!!!!!!!!!!!!!!! iFLY.cpp and condense.cpp are all you need
-
 https://www.kaggle.com/zernach/2018-airplane-flights
 ^^
 The above link takes you to exactly where we got the csv file. However, it's extremely large with a lot of redundant data. 
