@@ -22,7 +22,7 @@ void writeFile() {
 		getline(file, line);
 		info.push_back(line);
 		while (getline(file, line)) {
-			if(count%5 == 0)
+			if(count%10 == 0)
 				info.push_back(line);
 			count++;
 		}
