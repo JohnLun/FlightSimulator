@@ -392,7 +392,7 @@ int main() {
 	cout << "Adjacency List Construction: " << duration_cast<nanoseconds>(t5 - t4).count() << " nanoseconds" << endl << endl;
 	graphDist.readFile(fileName, !cost);
 	auto t6 = Clock::now();
-	cout << "Adjacency Matrix Construction: " << duration_cast<nanoseconds>(t6 - t4).count() << " nanoseconds" << endl << endl;
+	cout << "Adjacency Matrix Construction: " << duration_cast<nanoseconds>(t6 - t5).count() << " nanoseconds" << endl << endl;
 
 	string cont;
 	while (cont != "N") {
