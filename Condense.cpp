@@ -31,7 +31,7 @@ void writeFile() {
 		cout << "Not Open " << endl;
 
 	ofstream myFile;
-	myFile.open("flightsv1.csv");
+	myFile.open("flightsv4.csv");
 	if (myFile.is_open())
 		cout << "Open";
 	for (int i = 0; i < info.size(); i++)
